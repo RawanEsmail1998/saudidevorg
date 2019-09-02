@@ -8,3 +8,4 @@ document.write("<br> the time is ",oldDateWithTime.getHours());
 document.write("<br> the time in UTC timezone ", oldDateWithTime.getUTCHours());
 documet.write("<br>",oldDateWithTime.toLocalDateString());
 document.write("<br>",oldDateWithTime.tolSOString());
+console.log(new Date());

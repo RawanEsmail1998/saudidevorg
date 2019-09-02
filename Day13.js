@@ -1,0 +1,14 @@
+document.write('your name= "rawan"<br>');
+document.write('your name= \"rawan\" <br>');
+var name="rawan Esmail";
+document.write(name.length,"<br>");
+document.write("first character is ",name.charAt(0)," <br> ");
+document.write(" last character is ",name.charAt(name.length-1)," <br> ");
+document.write(name.substring(1,4),"<br>");
+document.write("last three character ",name.slice(-3)," <br>");
+document.write(" returns the first occurrence of a  is ",name.indexOf("a"),"<br>");
+ddocument.write(name.indexOf("a"),"<br>");
+document.write(name.lastIndexOf("a"),"<br>");
+document.write(name.split(,),"<br>");
+document.write(name.replace("r","R"),"<br>");
+document.write(name.toUpperCase());
